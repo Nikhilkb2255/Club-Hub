@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
         var feedback = document.getElementById("Feedback").value
 
         const data = {
-            "userName":localStorage.getItem('username'),
-            "eventName":localStorage.getItem('eventName'),
-            "feed" : feedback,
+            "username":localStorage.getItem('username'),
+            "eventname":localStorage.getItem('eventName'),
+            "feedback" : feedback,
             };
 
         fetch('http://localhost:8000/clubhub/feedback/', {

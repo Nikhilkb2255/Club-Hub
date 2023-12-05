@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             button2.onclick = function() {
 
                 data = {
-                    "eventName":eventName
+                    "eventname":eventName
                 }
 
                 fetch('http://localhost:8000/clubhub/event/', {

@@ -3,12 +3,11 @@ from hub.views import *
 
 urlpatterns = [
     
-    path("signup/", signup_view.as_view(), name="Signup"),
-    path("login/", login_view.as_view(), name="Login"),
-    # path("logout/", logout_View.as_view(), name="Logout"),
-    path("event/", event_view.as_view(), name="Event"),
-    path("club/", club_view.as_view(), name="Club"),
-    path("feedback/", feed_view.as_view(), name="Feedback"),
-    path("user/", user_view.as_view(), name="User"),
-    path("userclub/", club_user_view.as_view(), name="Club View")
+    path("signup/", SIGNUP.as_view(), name="Signup"),
+    path("login/", LOGIN.as_view(), name="Login"),
+    path("event/", EVENT.as_view(), name="Event"),
+    path("club/", CLUB.as_view(), name="Club"),
+    path("feedback/", FEEDBACK.as_view(), name="Feedback"),
+    path("join/", JOIN_CLUB.as_view(), name="User"),
+    path("userclub/", CLUB_USER.as_view(), name="Club View")
 ]

@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
         var time = document.getElementById("eventUpdateTime").value;
 
         const data = {
-            "eventName" : localStorage.getItem("eventName"),
-            "eventUpdatedName": eventName,
-            "eventUpdateDate" : date,
-            "eventUpdateTime" : time
+            "eventname" : localStorage.getItem("eventName"),
+            "eventupdatedname": eventName,
+            "eventupdatedate" : date,
+            "eventupdatetime" : time
             };
 
         fetch('http://localhost:8000/clubhub/event/', {

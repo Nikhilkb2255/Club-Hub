@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
             button.onclick = function() {
               data = {
                 'username':localStorage.getItem('username'),
-                'clubName':clubName
+                'clubname':clubName
               }
 
-              fetch('http://localhost:8000/clubhub/user/', {
+              fetch('http://localhost:8000/clubhub/join/', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json',
