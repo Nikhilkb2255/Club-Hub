@@ -1,0 +1,193 @@
+.parent-div {
+  width: 1500px;
+  height: 679px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ----------------------------------------- */
+
+.FRAME-12-2 {
+  transform: rotate(0deg);
+  position: relative;
+  width: 1500px;
+  height: 679px;
+  left: 0px;
+  top: 0px;
+  opacity: 1;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+}
+/* ----------------------------------------- */
+
+.RECTANGLE-2-2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(244, 251, 247, 1);
+  width: 984px;
+  height: 569px;
+  opacity: 1;
+}
+/* ----------------------------------------- */
+
+.RECTANGLE-2-16 {
+  position: absolute;
+  left: 497px;
+  top: 395px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(203, 221, 179, 1);
+  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 66px;
+  height: 30px;
+  opacity: 1;
+}
+/* ----------------------------------------- */
+
+.RECTANGLE-2-18 {
+  position: absolute;
+  left: 596px;
+  top: 395px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(203, 221, 179, 1);
+  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 66px;
+  height: 30px;
+  opacity: 1;
+}
+/* ----------------------------------------- */
+
+.RECTANGLE-2-15 {
+  position: absolute;
+  left: 750px;
+  top: 310px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* width: 165px;
+  height: 29px; */
+  opacity: 1;
+}
+/* ----------------------------------------- */
+
+.RECTANGLE-6-25 {
+  position: absolute;
+  left: 750px;
+  top: 350px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* width: 165px;
+  height: 29px; */
+  opacity: 1;
+}
+/* ----------------------------------------- */
+
+#id-Rectangle7  {
+  position: absolute;
+  left: 590px;
+  top: 458px;
+  display: inline-block;
+  background-color: #70be81;
+  color: white;
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 1;
+  padding: 10px 20px;
+  border: 5px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+}
+/* ----------------------------------------- */
+
+#id-Rectangle8  {
+  position: absolute;
+  left: 590px;
+  top: 458px;
+  display: inline-block;
+  background-color: #70be81;
+  color: white;
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 1;
+  padding: 10px 20px;
+  border: 5px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+}
+/* ----------------------------------------- */
+
+.custom-button {
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(53, 9, 69);
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 4px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1);;
+  cursor: pointer;
+  opacity: 1;}
+
+.custom-button:hover {
+  background-color: transparent;
+  transform: scale(1.10);
+}
+/* ----------------------------------------- */
+
+.custom-button2 {
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(53, 9, 69);
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 4px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1);;
+  cursor: pointer;
+  opacity: 1;}
+
+.custom-button2:hover {
+  background-color: transparent;
+  transform: scale(1.10);
+}
+/* ----------------------------------------- */
+
+.custom-button3 {
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(53, 9, 69);
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 4px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1);;
+  cursor: pointer;
+  opacity: 1;}
+
+.custom-button3:hover {
+  background-color: transparent;
+  transform: scale(1.10);
+}

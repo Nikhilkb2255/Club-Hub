@@ -1,0 +1,136 @@
+.parent-div {
+  width: 1500px;
+  height: 679px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ------------------------------------------------------------------------- */
+
+.FRAME-25-2 {
+  transform: rotate(0deg);
+  position: relative;
+  width: 1500px;
+  height: 679px;
+  left: 0px;
+  top: 0px;
+  opacity: 1;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+}
+/* ------------------------------------------------------------------------- */
+
+/* .RECTANGLE-1-2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgb(112, 130, 120);
+
+  width: 1500px;
+  height: 800px;
+  opacity: 1;
+} */
+/* ------------------------------------------------------------------------- */
+
+.RECTANGLE-1-5 {
+  position: absolute;
+  left: 400px;
+  top: 214px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  opacity: 1;
+}
+.RECTANGLE-1-5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ------------------------------------------------------------------------- */
+
+.RECTANGLE-1-6 {
+  position: absolute;
+  left: 765px;
+  top: 214px;
+  transform: rotate(0deg);
+  transform-origin: center !important;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  opacity: 1;
+}
+.RECTANGLE-1-6 img {
+  /* Define styles for the image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Optional: Adjust how the image fills the container */
+  /* Add more styles as desired */
+}
+/* ------------------------------------------------------------------------- */
+
+.custom-button {
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(53, 9, 69);
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 4px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1);;
+  cursor: pointer;
+  opacity: 1;}
+
+.custom-button:hover {
+  background-color: transparent;
+  transform: scale(1.08);
+}
+/* ------------------------------------------------------------------------- */
+
+.custom-img1 {
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(53, 9, 69);
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 4px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1);;
+  cursor: pointer;
+  opacity: 1;}
+
+.custom-img1:hover {
+  background-color: transparent;
+  transform: scale(1.08);
+}
+/* ------------------------------------------------------------------------- */
+
+.custom-img2 {
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(53, 9, 69);
+  text-decoration: rgb(234, 237, 231);
+  border-radius: 4px;
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1);;
+  cursor: pointer;
+  opacity: 1;}
+
+.custom-img2:hover {
+  background-color: transparent;
+  transform: scale(1.08);
+}

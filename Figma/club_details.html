@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Club Table</title>
+  <style>
+
+    /* Center the table */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    /* Style for the table */
+    #clubTable {
+      border-collapse: collapse;
+      width: 70%;
+      margin-top: 50px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    #clubTable th, #clubTable td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    #clubTable th {
+      background-color: #374785;
+      color: #fff;
+    }
+    /* Back button */
+    .custom-button {
+      display: inline-block;
+      padding: 8px 16px;
+      text-decoration: none;
+      background-color: #1E90FF;
+      color: #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .custom-button:hover {
+      background-color: #0056b3;
+    }
+    /* Adjusted Back button position */
+    #id-Back {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="id-Back">
+    <a href="file:///C:/Users/Hp/Desktop/Figma/user_home.html" class="custom-button">
+      <span style="
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      ">Back</span>
+    </a>
+  </div>
+  
+  <table id="clubTable">
+    <thead>
+      <tr>
+        <th>Club Name</th>
+        <th>Club Advisor</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="js/club_details.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Table</title>
+  <style>
+    
+    /* Center the table */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 55vh;
+      margin: 0;
+    }
+    /* Style for the table */
+    #feedbackTable {
+      border-collapse: collapse;
+      width: 60%;
+    }
+    #feedbackTable th, #feedbackTable td {
+      border: 1px solid #000;
+      padding: 12px;
+      text-align: center;
+    }
+    #feedbackTable th {
+      background-color: rgb(175, 169, 203);
+    }
+    /* Add more styles as needed */
+    .custom-button {
+      display: inline-block;
+      padding: 8px 16px;
+      text-decoration: none;
+      background-color: #1E90FF;
+      color: #fff;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    .custom-button:hover {
+      background-color: #0056b3;
+    }
+    /* Adjusted Back button position */
+    #id-Back {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="id-Back">
+    <a href="file:///C:/Users/Hp/Desktop/Figma/user_home.html" class="custom-button">
+      <span style="
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      ">Back</span>
+    </a>
+  </div>
+
+  <table id="feedbackTable">
+    <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Feedback</th>
+        <th>User Name</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="js/feed_details.js"></script>
+</body>
+</html>
