@@ -1,7 +1,7 @@
 // Add event listener to the button
 document.getElementById('addButton').addEventListener('click', function() {
     // Navigate to the specified URL when the button is clicked
-    window.location.href = 'file:///C:/Users/Hp/Desktop/Figma/add_event.html';
+    window.location.href = 'add_event.html';
   });
 
   

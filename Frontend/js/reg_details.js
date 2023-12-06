@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async function () {
   try {
     data = {
-      "staffClub":localStorage.getItem("staffClub")
+      "staffclub":localStorage.getItem("staffclub")
     }
     fetch('http://localhost:8000/clubhub/userclub/', {
       method: 'POST',

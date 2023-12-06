@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
               .then(response => response.json())
               .then(data => {
                 alert("You Have Joined " + clubName + ' Club !')
+                currentClubs = localStorage.getItem('userClubs')
+                localStorage.setItem('userClubs', currentClubs + ',' + clubName)
                 button.disabled;
               })
 

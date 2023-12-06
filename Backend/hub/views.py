@@ -128,10 +128,13 @@ class FEEDBACK(APIView):
         for feeds in feedObject: 
             feedList.append({
                 "eventName":feeds.event.name,
+                "eventDate":feeds.event.date,
+                "eventTime":feeds.event.time,
                 "Feedback":feeds.feedback,
                 "User":feeds.user.username
                 })
-        return Response(feedList)
+        sorted_feedbacks = sorted(feedList, key=lambda x: (x['eventDate'], x['eventTime']), reverse=True)
+        return Response(sorted_feedbacks)
     
     def post(self, request):
         
@@ -153,7 +156,7 @@ class JOIN_CLUB(APIView):
     def post(self, request):
         data = request.data
         username = data['username']
-        clubname = data['clubName']
+        clubname = data['clubname']
         user = HubUser.objects.get(username=username)
         clubObject = club.objects.get(name=clubname)
         user.club.add(clubObject)

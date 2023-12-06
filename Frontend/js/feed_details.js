@@ -4,19 +4,28 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('http://localhost:8000/clubhub/feedback/')
       .then(response => response.json())
       .then(data => {
-        console.log(data)
         for (const Feedback in data) {
           if (data.hasOwnProperty(Feedback)) {
             const feedbackDetails = data[Feedback];
+            var now = new Date();
+            var parts = feedbackDetails.eventDate.split('-');
+            var date = new Date(parts[0], parts[1] - 1, parts[2]);
+            var status = "Completed"
+            if(date >= now)
+              status = "Upcoming"
             const row = feedbackTable.insertRow();
-  
-            const eventCell = row.insertCell(0);
-            const feedCell = row.insertCell(1);
-            const userCell = row.insertCell(2);
-  
+            const userCell = row.insertCell(0);
+            const eventCell = row.insertCell(1);
+            const dateCell = row.insertCell(2);
+            const TimeCell = row.insertCell(3);
+            const feedCell = row.insertCell(4);
+            const statusCell = row.insertCell(5);
             eventCell.innerHTML = feedbackDetails.eventName;
             feedCell.innerHTML =feedbackDetails.Feedback;
             userCell.innerHTML = feedbackDetails.User;
+            dateCell.innerHTML = feedbackDetails.eventDate;
+            TimeCell.innerHTML = feedbackDetails.eventTime;
+            statusCell.innerHTML = status;
           }
         }
       })

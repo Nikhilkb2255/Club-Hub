@@ -15,10 +15,10 @@ class club(models.Model):
         return self.name
 
 class HubUser(AbstractUser):
-    department = models.CharField(max_length=100)
+    department = models.CharField(max_length=100, null=True)
     age = models.PositiveIntegerField(null=True, blank=True)
-    gender = models.CharField(max_length=50)
-    club = models.ManyToManyField(club)
+    gender = models.CharField(max_length=50, null=True)
+    club = models.ManyToManyField(club, blank=True)
 
     def __str__(self) -> str:
         return self.username

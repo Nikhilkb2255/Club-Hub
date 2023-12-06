@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
           if (data.hasOwnProperty(eventName)) {
             const eventDetails = data[eventName];
             var userClubs = localStorage.getItem('userClubs');
+            console.log(userClubs)
             if(userClubs.includes(eventDetails.EventClub)){
             const row = eventTable.insertRow();
             const nameCell = row.insertCell(0);
